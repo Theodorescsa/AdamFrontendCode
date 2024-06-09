@@ -5,13 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ADAM</title>
     <link rel="stylesheet" href="./css/fontfamily.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/home.css">
 
 
 </head>
 <body>
+    <div class="container">
         <div class="banner">
-            <img src="./images/banner.jpg" alt="">
+            <img src="./images/banner.jpg" alt="" style="width:100vw;height:500px">
         </div>
         <div class="navbar-container">
             <ul class="narbar">
@@ -57,11 +59,35 @@
                             <li class="title-dropdown-father"><a href="#">WRITE TO ADAM</a></li>
                         </ul>
                     </div>
-                    <li class="navbar-li"><img src="./images/arrow_nav.png" alt=""><a href="">HOME</a></li>
-                    <li class="navbar-li"><img src="./images/arrow_nav.png" alt=""><a href="">BOOKS</a></li>
-                    <li class="navbar-li"><img src="./images/arrow_nav.png" alt=""><a href="">VCLASSEOS & PHOTOS</a></li>
+                    <li class="navbar-li active" ><img src="./images/arrow_nav.png" alt=""><a href="">HOME</a></li>
+                    <li class="navbar-li">
+                        <img src="./images/arrow_nav.png" alt="">
+                        <a href="">BOOKS</a>
+                        <ul id="navbar-li-ul1">
+                            <li><a href="">GRIMM BOOKS</a></li>
+                            <li><a href="">STAR WARS BOOKS</a></li>
+                            <li><a href="">THE INQUISITOR’S TALE</a></li>
+                            <li><a href="">THE UNICORN RESCUE SOCIETY</a></li>
+                        </ul>
+                    </li>
+                    <li class="navbar-li">
+                        <img src="./images/arrow_nav.png" alt="">
+                        <a href="">VIDEOS & PHOTOS</a>
+                        <ul id="navbar-li-ul2">
+                            <li><a href="">VIDEOS</a></li>
+                            <li><a href="">PHOTO GALLERY</a></li>
+                        </ul>
+                    </li>
                     <li class="navbar-li"><img src="./images/arrow_nav.png" alt=""><a href="">FIND ADAM!</a></li>
-                    <li class="navbar-li"><img src="./images/arrow_nav.png" alt=""><a href="">RESOURCES</a></li>
+                    <li class="navbar-li">
+                        <img src="./images/arrow_nav.png" alt="">
+                        <a href="">RESOURCES</a>
+                        <ul id="navbar-li-ul3">
+                            <li><a href="">GRIMM BOOKS</a></li>
+                            <li><a href="">GRIMM BOOKS</a></li>
+                            <li><a href="">UNICORN RESCUE SOCIETY</a></li>
+                        </ul>
+                    </li>
                     <li class="navbar-li"><img src="./images/arrow_nav.png" alt=""><a href="">NEWS & ANNOUNCEMENTS</a></li>
                     <li class="navbar-li"><img src="./images/arrow_nav.png" alt=""><a href="">ABOUT ADAM</a></li>
                     <li class="navbar-li"><img src="./images/arrow_nav.png" alt=""><a href="">WRITE TO ADAM</a></li>
@@ -85,8 +111,82 @@
                 <img src="./images/video_bkg_left.png" alt="">
                 <img src="./images/video_bkg_right.png" alt="">
             </div>
+            <div class="animation" id="slideshow"></div>
         </div>
+        <div class="introduction">
+            <div class="all-box">
+                <div class="box">
+                    <img src="./images/news_feed_header.png" alt="">
+                    <div class="mar">
+                        <div class="day-box">
+                            <p style="    font-family: 'Open Sans Condensed', sans-serif;">MAR</p>
+                            <p style="    font-family: 'Open Sans Condensed', sans-serif;">13</p>
+                        </div>
+                        <p>
+                            <a href="">
+                                <b>WALL STREET JOURNAL REVIEW: MAX IN THE HOUSE OF SPIES</b>
+                            </a>
+                            <a href="">
+                                ... <b>READ MORE »</b>
+                            </a>
+                        </p>
+                    </div>
+                    <div class="mar">
+                        <div class="day-box">
+                            <p style="    font-family: 'Open Sans Condensed', sans-serif;">MAR</p>
+                            <p style="    font-family: 'Open Sans Condensed', sans-serif;">05</p>
+                        </div>
+                        <p>
+                            <a href="">
+                                <b>MAX IN THE HOUSE OF SPIES - AN INSTANT NYTIMES BESTSELLER!</b>
+                            </a>
+                            <a href="">
+                                ... <b>READ MORE »</b>
+                            </a>
+                        </p>
+                    </div>
+                    <div class="much-more">
+                        <p style="font-family:'Open Sans Condensed', sans-serif;"><b>MUCH MORE</b></p>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="./images/events_header.png" alt="">
+                    <p style="padding-bottom: 270px;">There are no upcoming events at this time</p>
+
+                </div>
+                <div class="box">
+                    <img src="./images/newsletter_header.png" alt="">
+                    <div class="form-signup">
+                        <p>Sign up for Adam's newsletter by entering your info below:</p>
+                        <form action="">
+                            <input type="text" placeholder="Email Address"><input type="text" placeholder="First Name"><input type="text" placeholder="Last Name">
+                            <button>SIGN ME UP&nbsp;&nbsp;&nbsp;</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer-image">
+                <img src="./images/footer_left.png" alt=""><img src="./images/footer_right.png" alt="">
+            </div>
+            <div class="footer-content">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Books</a></li>
+                    <li><a href="">Videos & Photos</a></li>
+                    <li><a href="">Find Adam!</a></li>
+                    <li><a href="">Resources</a></li>
+                    <li><a href="">News & Announcements</a></li>
+                    <li><a href="">About Adam</a></li>
+                    <li><a href="">Write To Adam</a></li>
+                </ul>
+                <p><b>©2024 Adam Gidwitz | All awesome artwork ©2024 HUGH D’ANDRADE</b></p>
+            </div>
+        </div>
+    </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="./js/home.js"></script>
+    <script src="./js/navbar.js"></script>
+
 </body>
 </html>
