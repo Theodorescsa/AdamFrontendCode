@@ -5,7 +5,6 @@
 }
 body {
     background-color: rgb(235, 237, 238);
-    /* background-color: aqua; */
     
 }
 
@@ -18,6 +17,9 @@ a {
 .banner {
     position: relative;
 }
+.banner > img {
+    height: 295px;
+}
 .author {
     position: absolute;
     width: 100%;
@@ -26,22 +28,7 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    top: 135px;
-}
-.author-description {
-    width: 50%;
-    text-align: center;
-    color: white;
-    font-size: large;
-}
-.author-description > a {
-    text-decoration: none;
-    color: rgb(0, 150, 224);
-    line-height: 1.5;
-}
-.author-description > a:hover {
-    text-decoration:underline;
-    color: rgb(0, 150, 224);
+    top: 70px;
 }
 .author> h1 {
     font-size: 58px;
@@ -49,46 +36,37 @@ a {
     color: white;
     text-shadow: 0 0 3.2em #000, 0 0 2.2em #000;
 }
-.slideshow {
-    position: absolute;
-    top: 326px;
-    width: 100%;
+.books-content {
     display: flex;
-    justify-content: center;
-
+    width: 70%;
+    margin: 0 auto;
+    justify-content: space-between;
 }
-.slideshow-background {
-    position: absolute;
-    width: 97%;display: flex;
-    justify-content: center;
-}
-.slideshow-background > img {
-    width: 26%;
-}
-.animation {
-    position: relative;
-    width: 45%;
-    height: 400px;
+.books-content-bkg {
     display: flex;
-    z-index: 1;
-    top: 100px;
-    animation: bg-Slide 10s linear infinite;
-    background-size: 100% auto;
+    flex-basis: 50%;
+}
+.books-content-bkg > img {
+    position: absolute;
+    width: 46%;
+    top: 243px;
 }
 .introduction {
     width: 100%;
     display: flex;
-    position: absolute;
-    top: 813px;
+    top: 400px;
     justify-content: center;
+    flex-basis: 35%;
 }
 .all-box {
+    position: relative;
     width: 90%;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     max-width: 1110px;
     background-color: rgb(235, 237, 238);
-    top: 1000px;
+    top: -25px;
     z-index: 1;
 }
 .box {
@@ -98,6 +76,7 @@ a {
     align-items: center;
     background-color: white;
     height: 300px;
+    border-radius: 7px;
 }
 .box > img {
     position: relative;
@@ -105,42 +84,7 @@ a {
     max-width: 284px;
     width: 81.3%;
 }
-@keyframes bg-Slide {
-    0% {
-        background-image: url('../images/slideshow1.jpg');
-    }
-    10% {
-        background-image: url('../images/slideshow4.jpg');
-    }
-    20% {
-        background-image: url('../images/slideshow2.jpg');
-    }
-    30% {
-        background-image: url('../images/slideshow3.png');
-    }
-    40% {
-        background-image: url('../images/slideshow2.jpg');
-    }
-    50% {
-        background-image: url('../images/slideshow5.jpg');
-    }
-    60% {
-        background-image: url('../images/slideshow4.jpg');
-    }
-    70% {
-        background-image: url('../images/slideshow1.jpg');
-    }
-    80% {
-        background-image: url('../images/slideshow5.jpg');
-    }
-    90% {
-        background-image: url('../images/slideshow1.jpg');
-    }
-    100% {
-        background-image: url('../images/slideshow1.jpg');
-    }
-    
-}
+
 .mar {
     position: relative;
     display: flex;
@@ -326,12 +270,7 @@ a {
         top: 45px;
         display: none;
         position: fixed;
-    }
-    .navbar-li > ul > li:hover {
-        background-color: #00A7E0;
-    }
-    .navbar-li > ul > li:hover > a  {
-        color: #000;
+        z-index: 1;
     }
     #navbar-li-ul1{
         position: absolute;
@@ -352,6 +291,12 @@ a {
         margin: 6px 0px 0px 0px;
         background-color: #303F45;
         width: 150px;
+    }
+    .navbar-li > ul > li:hover {
+        background-color: #00A7E0;
+    }
+    .navbar-li > ul > li:hover > a  {
+        color: #000;
     }
     .navbar-li > ul > li > a {
         color: #ffffff;
@@ -453,21 +398,15 @@ a {
         color: black;
     }
     .all-box {
-        width: 90%;
-        display: flex;
-        justify-content: space-between;
-        max-width: 1110px;
-        background-color: rgb(235, 237, 238);
-        top: 1000px;
-        z-index: 1;
-        flex-direction: column;
+        display: none;
     }
-    .box {
+    .books-content {
         display: flex;
-        flex-direction: column;
-        align-items: center;
-        background-color: white;
-        width: 80%;
-        margin-top: 20px;
+        justify-content: center;
     }
+    .books-content-bkg >img{
+        width: 87%;
+        left: 5%;
+    }
+    
 }

@@ -3,67 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Navigation Menu</title>
+    <title>Combined Image</title>
     <style>
         body {
-            background-color: #00a4d3;
-            color: white;
-            font-family: Arial, sans-serif;
+            background-color: antiquewhite;
         }
-        ul {
-            padding-left: 20px;
+        .combined-image {
+            display: flex;
+            width: fit-content;
         }
-        ul ul {
-            padding-left: 20px;
-        }
-        a {
-            color: white;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
+        .combined-image img {
+            width: auto;
+            height: auto;
         }
     </style>
 </head>
 <body>
-    <ul>
-        <li><a href="#">HOME</a></li>
-        <li><a href="#">BOOKS</a>
-            <ul>
-                <li><a href="#">GRIMM BOOKS</a>
-                    <ul>
-                        <li><a href="#">A TALE DARK AND GRIMM</a></li>
-                        <li><a href="#">IN A GLASS GRIMMLY</a></li>
-                        <li><a href="#">THE GRIMM CONCLUSION</a></li>
-                        <li><a href="#">REVIEWS</a></li>
-                    </ul>
-                </li>
-                <li><a href="#">STAR WARS BOOKS</a></li>
-                <li><a href="#">THE INQUISITOR’S TALE</a>
-                    <ul>
-                        <li><a href="#">REVIEWS</a></li>
-                    </ul>
-                </li>
-                <li><a href="#">THE UNICORN RESCUE SOCIETY</a></li>
-            </ul>
-        </li>
-        <li><a href="#">VIDEOS & PHOTOS</a>
-            <ul>
-                <li><a href="#">VIDEOS</a></li>
-                <li><a href="#">PHOTO GALLERY</a></li>
-            </ul>
-        </li>
-        <li><a href="#">FIND ADAM!</a></li>
-        <li><a href="#">RESOURCES</a>
-            <ul>
-                <li><a href="#">GRIMM BOOKS</a></li>
-                <li><a href="#">THE INQUISITOR’S TALE</a></li>
-                <li><a href="#">UNICORN RESCUE SOCIETY</a></li>
-            </ul>
-        </li>
-        <li><a href="#">NEWS & ANNOUNCEMENTS</a></li>
-        <li><a href="#">ABOUT ADAM</a></li>
-        <li><a href="#">WRITE TO ADAM</a></li>
-    </ul>
+    <div class="combined-image">
+        <img src="./images/interior_content_left.png" alt="Left Image">
+        <img src="./images/interior_content_right.png" alt="Right Image">
+    </div>
 </body>
 </html>
