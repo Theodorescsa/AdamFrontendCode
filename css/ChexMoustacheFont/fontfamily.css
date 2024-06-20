@@ -1,0 +1,12 @@
+@font-face{
+    font-family: "Chez Moustache";
+    src: url("76707b62b5cc54130ef9e470d5befad5.eot");
+    src: url("76707b62b5cc54130ef9e470d5befad5.eot?#iefix")format("embedded-opentype"),
+        url("76707b62b5cc54130ef9e470d5befad5.woff")format("woff"),
+        url("76707b62b5cc54130ef9e470d5befad5.woff2")format("woff2"),
+        url("76707b62b5cc54130ef9e470d5befad5.ttf")format("truetype"),
+        url("76707b62b5cc54130ef9e470d5befad5.svg#Chez Moustache")format("svg");
+    font-weight:normal;
+    font-style:normal;
+    font-display:swap;
+}

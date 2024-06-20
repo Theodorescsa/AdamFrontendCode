@@ -1,0 +1,26 @@
+[
+    {
+        "bannerimage":"../images/glass_banner.jpg",
+        "titleimage":"../images/glass_title.png",
+        "color":"rgb(131,182,0)",
+        "bookimage":"../images/books/InGlassGrimmly_Front.jpg",
+        "titlecontent":"This book is the tale of two children:",
+        "content":" a boy named Jack, and a girl named Jill. Yes, they do fall down a hill. And yes, Jack does break his head wide open.   But there is more than that. There is a beanstalk. There are giants. There might even be a mermaid or two. This story is terrifying. It is revolting. It is horrible. It is the most horrible fairy tale I have ever heard. Also, it is beautiful. Not sweet. Not cute.   Beautiful—like the gray and golden ashes in a fireplace. Or like the deep russet of a drying stain of blood.   And, best of all, it is true. That’s right… Fairy tales are awesome again."
+    },
+    {
+        "bannerimage":"../images/dark_banner.jpg",
+        "titleimage":"../images/dark_title.png",
+        "color":"#00A7E0",
+        "bookimage":"../images/books/TaleDarkGrimm_Front.jpg",
+        "titlecontent":"Reader, beware!",
+        "content":"Warlocks with dark spells, hunters with deadly aim, and bakers with ovens retro-fitted for baking children lurk within these pages.   But if you dare,   Follow Hansel and Gretel as they walk out of their own story and into the wilds—where magic, terror, and a little bit of humor shine like white pebbles lighting the way.   Come on in. It may be frightening, and it’s certainly bloody, but, unlike those other fairy tales you know, this one is true.   Once upon a time, you see, fairy tales were awesome.   In this mischievous and utterly original debut, Hansel and Gretel walk out of their own story and into eight other classic Grimm–inspired tales. As readers follow the siblings through a forest brimming with menacing foes, they learn the true story behind (and beyond) the bread crumbs, edible houses, and outwitted witches.   Fairy tales have never been more irreverent or subversive as Hansel and Gretel learn to take charge of their destinies and become the clever architects of their own happily ever after."
+    },
+    {
+        "bannerimage":"../images/conclusion_banner.jpg",
+        "titleimage":"../images/conclusion_title.png",
+        "color":"red",
+        "bookimage":"../images/books/GrimmConclusion_Front.jpg",
+        "titlecontent":"Once upon a time, fairy tales were grim.",
+        "content":"The Merriam–Webster Dictionary defines the word grim as “ghastly, repellent, or sinister in character.” Their example of how to use the word is this: “a grim tale.”   Take “Rumpelstiltskin,” for example. You may know “Rumpelstiltskin” as a funny little tale about a funny little man with a funny not–all–that–little name. But do you remember what happens at the end of that funny little story? The girl guesses his name, right? And he gets very angry. And do you remember what happens then?   No?   Well, in some versions of the story, Rumpelstiltskin stamps his foot and flies out the window. Which makes no sense. Who has ever stamped their foot and suddenly gone flying out of a window? Impossible. In other versions of the story, he stamps his foot and shatters into a thousand pieces. This is even more ridiculous than him flying out of a window. People don’t shatter. People are fleshy and bloody and gooey. Shatter is not something that people do.   So what really happens when the girl guesses Rumpelstiltskin’s name? In the real, Grimm version of the story? Well, he stamps his foot so hard that it gets buried three feet in the ground. Then he grabs his other leg, and he pulls up on it with such force that he rips himself in half. Which, it must be admitted, is indeed ghastly, repellent, sinister–and awesome.   The story I am about to tell you is like that, too. It is Grimm. And grim. In fact, it is the grimmest, Grimmest tale that I have ever heard. And I am sharing it with you. Yeah. You’re welcome."
+    }
+]

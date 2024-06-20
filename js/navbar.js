@@ -34,4 +34,10 @@ $(document).ready(function () {
     });
 
     $(window).resize();
+    $("#navbar-li-menu").siblings("ul").css("display", "none");
+
+    $("#navbar-li-menu").on("click", function () {
+        $(this).siblings("ul").slideToggle(1000);
+    });
+    
 });
