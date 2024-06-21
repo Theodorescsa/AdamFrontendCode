@@ -4,11 +4,11 @@ $(document).ready(function () {
         opacity:1
     },3000)
     $(".blood").animate({
-        // top:'130px',
+        top:'130px',
         opacity:1
     },3000)
     $(".tonhen").animate({
-        // top:'130px',
+        top:'130px',
         opacity:1
     },3000)
     // $("form").find("button").click(function(event){
