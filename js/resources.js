@@ -15,7 +15,8 @@ $(document).ready(function () {
                         <img src="${element.image}" alt="" class='book-image'>
                         <p><a href="#">Click here</a> ${element.content}</p>
                     </div>
-                    <div class="space"></div>
+                    <div class="space"></div
+                    >
                 `);
             }
         },
