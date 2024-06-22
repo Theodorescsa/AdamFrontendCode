@@ -189,9 +189,11 @@ a {
     display: flex;
     border-bottom: 1px dashed #333;
     width: 90%;
-    margin-top: 1000px;
+    margin-top: 500px;
     animation: animateBooks 1s forwards;
     opacity: 0;
+    position: relative;
+    left: -500px;
 }
 @keyframes animateBooks {
     to {
