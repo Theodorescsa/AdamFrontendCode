@@ -11,6 +11,7 @@ body {
 a {
     text-decoration: none;
 }
+
 .container {
     width: 100%;
 }
@@ -66,9 +67,7 @@ a {
     height: 378px;
     padding-bottom: 20px;
 }
-.video > iframe:last-child{
-    margin-top: 600px;
-}
+
 .videoWrapper{
     width: 562px;
     height: 326px;

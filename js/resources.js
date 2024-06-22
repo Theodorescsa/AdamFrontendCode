@@ -1,9 +1,4 @@
 $(document).ready(function () {
-    // Gắn sự kiện click cho các phần tử .book-image sử dụng phương pháp delegation
-    $(document).on('click', '.book-image', function (e) { 
-        console.log(this);
-    });
-
     $.ajax({
         type: "get",
         url: "/AdamFrontendCode/data/resources.json",
@@ -13,25 +8,49 @@ $(document).ready(function () {
             for (let index = 0; index < response.length; index++) {
                 const element = response[index];
                 $(".book-list").prepend(`
-                    <div class="book" style="position: relative; left: -50px; opacity: 0;">
+                    <div class="book">
                         <img src="${element.image}" alt="" class='book-image'>
                         <p><a href="#">Click here</a> ${element.content}</p>
                     </div>
                     <div class="space"></div>
                 `);
             }
-            
-            var books = document.querySelectorAll(".book");
-            for (let i = 0; i < books.length; i++) {
-                const element = books[i];
-                $(element).animate({
-                    left: "0px",
-                    opacity: 1
-                }, 2000);
-            }
+
+            // Hiệu ứng di chuyển và thay đổi độ mờ
+            $(".book").animate({
+                left: "0px",
+                opacity: 1
+            }, 2000);
+
+            // Thêm hiệu ứng thay đổi màu nền khi hover
+            $(".book").hover(
+                function () {
+                    var $this = $(this);
+                    $this.data('interval', setInterval(function () {
+                        $this.css('background-color', getRandomColor());
+                    }, 500));
+                },
+                function () {
+                    clearInterval($(this).data('interval'));
+                    $(this).css('background-color', '');
+                }
+            );
         },
         error: function (xhr, status, error) {
             console.error("Lỗi khi tải dữ liệu:", error);
         }
     });
+
+    function getRandomColor() {
+        var letters = '0123456789ABCDEF';
+        var color = '#';
+        for (var i = 0; i < 6; i++) {
+            color += letters[Math.floor(Math.random() * 16)];
+        }
+        return color;
+    }
+    $(".all-box").animate({
+        right:"0px",
+        opacity:1
+    },2000)
 });

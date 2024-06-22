@@ -25,6 +25,10 @@ $(document).ready(function () {
 
     $(window).resize(function() {
         var newWindowWidth = $(window).width();
+        var newWindowHeight = $(window).height();
+        // alert(newWindowHeight)
+        // alert(newWindowWidth)
+
         $('#navbar-li-ul1').css("left", `${newWindowWidth * 0.18}px`);  // 18% of the width
         $('#navbar-li-ul2').css("left", `${newWindowWidth * 0.243}px`); // 24.3% of the width
         $('#navbar-li-ul3').css("left", `${newWindowWidth * 0.457}px`); // 45.7% of the width

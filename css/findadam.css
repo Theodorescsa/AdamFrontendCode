@@ -47,7 +47,6 @@ a {
     flex-basis: 50%;
 }
 .books-content-bkg > img {
-    height: 3609px;
     position: absolute;
     width: 46%;
     top: 243px;
@@ -203,7 +202,7 @@ a {
     width: 100%;
     display: flex;
     position: absolute;
-    top:4450px;
+    top:1450px;
     justify-content: space-between;
 }
 .footer-content {
@@ -211,7 +210,7 @@ a {
     width: 100%;
     height: 169px;
     background-color: rgb(206, 210, 212);
-    top: 4500px;
+    top: 1500px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -447,5 +446,10 @@ a {
         width: 87%;
         left: 5%;
     }
-    
+    .footer-image {
+        top: 1050px;
+    }
+    .footer-content {
+        top: 1100px;
+    }
 }

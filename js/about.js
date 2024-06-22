@@ -50,7 +50,7 @@ $(document).ready(function () {
 
     $.ajax({
         type: "GET",
-        url: "/AdamFrontendCode/testimonial.json",
+        url: "/AdamFrontendCode/data/testimonial.json",
         dataType: "json",
         success: function (response) {
             console.log(response);
