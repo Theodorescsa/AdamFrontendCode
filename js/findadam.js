@@ -2,7 +2,7 @@ $(document).ready(function () {
     $(document).ready(function () {
         $.ajax({
             type: "get",
-            url: "../data/findadam.json",
+            url: "/AdamFrontendCode/data/findadam.json",
             dataType: "json",
             success: function (response) {
                 console.log(response);
