@@ -11,28 +11,7 @@ body {
 a {
     text-decoration: none;
 }
-#redirect-background1 {
-    position:absolute;
-    z-index: 2;
-    height: 735px;
-    width: 765px;
-    display: flex;
-    background: url("../images/nenmayslideleft.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    left: 30px;
-}
-#redirect-background2{
-    position:absolute;
-    z-index: 2;
-    height: 735px;
-    width: 765px;
-    display: flex;
-    background: url("../images/nenmayslideright.png"); 
-    background-repeat: no-repeat;
-    background-size: cover; 
-    right: 30px;
-}
+
 .container {
     width: 100%;
     margin-bottom: 100px;

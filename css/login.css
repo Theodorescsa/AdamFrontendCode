@@ -98,11 +98,11 @@ input::placeholder {
 .login-title {
     font-family:'Inheritance Font';
     font-size: 70px;
-    color: gray;
+    color: blue;
     margin: -30px auto;
     margin-left: 200px;
 }
-.login-form > form > button {
+.login-form > form >a {
     background: url('../images/submit_arrow.png');
     background-color: #303F45;
     color: #00A7E0;
@@ -113,13 +113,19 @@ input::placeholder {
     background-position: center center;
     margin-top: 13px;
     width: 40%;
+    display: flex;
+    justify-content: center;
     
 }
-.login-form > form > button:hover {
+.login-form > form> a:hover {
     background-color: #00A7E0;
     color: white;
 }
-    
+  
+.login-form > form> p:hover > a {
+    color: white;
+}
+  
 @media screen and (max-width: 1624px) {
   
     .navbar-container {
@@ -313,5 +319,8 @@ input::placeholder {
         background-color: white;
         width: 80%;
         margin-top: 20px;
+    }
+    .login-form {
+        width: 80%;
     }
 }

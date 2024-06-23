@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADAM</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/register.css">
+    <link rel="stylesheet" href="./css/ChexMoustacheFont/fontfamily.css">
+    <link rel="stylesheet" href="./css/InheritFont/fontfamily.css">
+    <link rel="stylesheet" href="./css/cloudslide.css">
+
+</head>
+<body>
+    <div id="redirect-background1"></div>
+    <div id="redirect-background2"></div>
+    <div class="container">
+        <video autoplay  loop  id="background-video">
+            <source src="./images/register.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+        </video>
+        <div class="navbar-container">
+            <ul class="narbar">
+                    <div class="menu-dropdown">
+                        <li id="navbar-li-menu" ><img src="./images/arrow_nav.png" alt="">MENU</li>
+                        <ul>
+                            <li class="title-dropdown-father"><a href="#">HOME</a></li>
+                            <li class="title-dropdown-father"><a href="#">BOOKS</a>
+                                <ul class="title-dropdown">
+                                    <li><a href="#">GRIMM BOOKS</a>
+                                        <ul>
+                                            <li><a href="#">A TALE DARK AND GRIMM</a></li>
+                                            <li><a href="#">IN A GLASS GRIMMLY</a></li>
+                                            <li><a href="#">THE GRIMM CONCLUSION</a></li>
+                                            <li><a href="#">REVIEWS</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">STAR WARS BOOKS</a></li>
+                                    <li><a href="#">THE INQUISITOR'S TALE</a>
+                                        <ul >
+                                            <li><a href="#">REVIEWS</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">THE UNICORN RESCUE SOCIETY</a></li>
+                                </ul>
+                            </li>
+                            <li class="title-dropdown-father"><a href="#">VIDEOS & PHOTOS</a>
+                                <ul class="title-dropdown">
+                                    <li><a href="#">VIDEOS</a></li>
+                                    <li><a href="#">PHOTO GALLERY</a></li>
+                                </ul>
+                            </li>
+                            <li class="title-dropdown-father"><a href="#">FIND ADAM!</a></li>
+                            <li class="title-dropdown-father"><a href="#">RESOURCES</a>
+                                <ul class="title-dropdown">
+                                    <li><a href="#">GRIMM BOOKS</a></li>
+                                    <li><a href="#">THE INQUISITOR'S TALE</a></li>
+                                    <li><a href="#">UNICORN RESCUE SOCIETY</a></li>
+                                </ul>
+                            </li>
+                            <li class="title-dropdown-father"><a href="#">NEWS & ANNOUNCEMENTS</a></li>
+                            <li class="title-dropdown-father"><a href="#">ABOUT ADAM</a></li>
+                            <li class="title-dropdown-father"><a href="#">WRITE TO ADAM</a></li>
+                        </ul>
+                    </div>
+                    <li class="navbar-li active" ><img src="./images/arrow_nav.png" alt=""><a href="./register.html">REGISTER</a></li>
+                    <li class="navbar-li" ><img src="./images/arrow_nav.png" alt=""><a href="./home.html">HOME</a></li>
+
+                    <li class="navbar-li">
+                        <img src="./images/arrow_nav.png" alt="">
+                        <a href="./books.html">BOOKS</a>
+                        <ul id="navbar-li-ul1">
+                            <li><a href="">GRIMM BOOKS</a></li>
+                            <li><a href="">STAR WARS BOOKS</a></li>
+                            <li><a href="">THE INQUISITOR’S TALE</a></li>
+                            <li><a href="">THE UNICORN RESCUE SOCIETY</a></li>
+                        </ul>
+                    </li>
+                    <li class="navbar-li">
+                        <img src="./images/arrow_nav.png" alt="">
+                        <a href="">VIDEOS & PHOTOS</a>
+                        <ul id="navbar-li-ul2">
+                            <li><a href="">VIDEOS</a></li>
+                            <li><a href="">PHOTO GALLERY</a></li>
+                        </ul>
+                    </li>
+                    <li class="navbar-li"><img src="./images/arrow_nav.png" alt=""><a href="">FIND ADAM!</a></li>
+                    <li class="navbar-li">
+                        <img src="./images/arrow_nav.png" alt="">
+                        <a href="">RESOURCES</a>
+                        <ul id="navbar-li-ul3">
+                            <li><a href="">GRIMM BOOKS</a></li>
+                            <li><a href="">GRIMM BOOKS</a></li>
+                            <li><a href="">UNICORN RESCUE SOCIETY</a></li>
+                        </ul>
+                    </li>
+                    <li class="navbar-li"><img src="./images/arrow_nav.png" alt=""><a href="">NEWS & ANNOUNCEMENTS</a></li>
+                    <li class="navbar-li"><img src="./images/arrow_nav.png" alt=""><a href="">ABOUT ADAM</a></li>
+                    <li class="navbar-li"><img src="./images/arrow_nav.png" alt=""><a href="">WRITE TO ADAM</a></li>
+            </ul>
+        </div>
+        <img src="./images/blood.png" class="blood">
+        <img src="./images/tonhen-Photoroom.png" class="tonhen">
+
+        <div class="login-form">
+            <p class="login-title">Register Here</p>
+            <form>
+                <input type="text" placeholder="Email Address" id="email">
+                <input type="text" placeholder="Password" id="password">
+                <input type="text" placeholder="Password again" id="passwordagain">
+
+                <a href="./login.html" class="button">SIGN ME UP&nbsp;&nbsp;&nbsp;</a>
+                <p><a href="./login.html">"Sign In here if you have an account</a></p>
+
+            </form>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./js/navbar.js"></script>
+    <script src="./js/login.js"></script>
+    <script src="./js/redirect-slide.js"></script>
+
+</body>
+</html>

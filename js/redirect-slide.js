@@ -1,4 +1,5 @@
 $(document).ready(function () {
+
     $("#redirect-background1").animate({
         left: "-700px",
         opacity:0

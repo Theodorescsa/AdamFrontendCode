@@ -1,4 +1,5 @@
 $(document).ready(function () {
+ 
     $(".login-form").animate({
         top:'130px',
         opacity:1
@@ -8,9 +9,15 @@ $(document).ready(function () {
         opacity:1
     },3000)
     $(".tonhen").animate({
-        top:'130px',
+        top:'70px',
         opacity:1
     },3000)
+    $(document).one('click touchstart', function() {
+        var video = document.getElementById('background-video');
+        video.play().catch(function (error) {
+            console.log('Video play was prevented: ' + error);
+        });
+    });
     // $("form").find("button").click(function(event){
     //     event.preventDefault(); 
     //     var api = 'http://127.0.0.1:5500/data/users.json';
