@@ -1,6 +1,6 @@
 #redirect-background1 {
     position:absolute;
-    height: 740px;
+    height: 940px;
     width: 965px;
     display: flex;
     background: url("../images/nenmayslideleft.png");
@@ -12,7 +12,7 @@
 #redirect-background2{
     position:absolute;
     z-index: 2;
-    height: 750px;
+    height: 950px;
     width: 965px;
     display: flex;
     background: url("../images/nenmayslideright.png"); 
