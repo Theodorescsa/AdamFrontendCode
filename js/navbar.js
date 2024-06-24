@@ -11,13 +11,13 @@ $(document).ready(function () {
         $(this).find("ul").css("display", "none");
         $(this).find("a").css("margin-top", "18px");
     });
-    $(".navbar-li.active").on("mouseover", function () {
-        $(this).find("ul").css("display", "block");
-    });
+    // $(".navbar-li.active").on("mouseover", function () {
+    //     $(this).find("ul").css("display", "block");
+    // });
 
-    $(".navbar-li.active").on("mouseout", function () {
-        $(this).find("ul").css("display", "none");
-    });
+    // $(".navbar-li.active").on("mouseout", function () {
+    //     $(this).find("ul").css("display", "none");
+    // });
 
     $(".animation").css("top", '100px');
 

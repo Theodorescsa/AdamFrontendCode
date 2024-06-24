@@ -5,9 +5,7 @@
 }
 body {
     background-color: rgb(235, 237, 238);
-    
 }
-
 a {
     text-decoration: none;
 }
@@ -17,9 +15,43 @@ a {
 }
 .banner {
     position: relative;
+    background-color: #00A7E0;
+    height: 350px;
+    /* border-bottom: 40px solid #A04000; */
 }
-.banner > img {
-    height: 295px;
+.banner > img:last-child {
+    position: absolute;
+    height: 350px;
+    width: 100vw;
+    z-index: 0;
+}
+#mattroi {
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    right: 100px;
+    top: 30px;
+    z-index: 0;
+    opacity: 1;
+}
+#dammayleft,#dammayright {
+    height: 400px;
+    position: absolute;
+}
+#dammayleft {
+    left: 100px;
+}
+#dammayright {
+    right: 100px;
+}
+#mattrang {
+    height: 120px;
+    width: 120px;
+    position: absolute;
+    right: 100px;
+    z-index: 0;
+    top: 250px;
+    opacity: 0;
 }
 .author {
     position: absolute;

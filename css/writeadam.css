@@ -5,7 +5,6 @@
 }
 body {
     background-color: rgb(235, 237, 238);
-    
 }
 
 a {
@@ -17,9 +16,43 @@ a {
 }
 .banner {
     position: relative;
+    background-color: #00A7E0;
+    height: 350px;
+    /* border-bottom: 40px solid #A04000; */
 }
-.banner > img {
-    height: 295px;
+.banner > img:last-child {
+    position: absolute;
+    height: 350px;
+    width: 100vw;
+    z-index: 0;
+}
+#mattroi {
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    right: 100px;
+    top: 30px;
+    z-index: 0;
+    opacity: 1;
+}
+#dammayleft,#dammayright {
+    height: 400px;
+    position: absolute;
+}
+#dammayleft {
+    left: 100px;
+}
+#dammayright {
+    right: 100px;
+}
+#mattrang {
+    height: 120px;
+    width: 120px;
+    position: absolute;
+    right: 100px;
+    z-index: 0;
+    top: 250px;
+    opacity: 0;
 }
 .author {
     position: absolute;
@@ -52,6 +85,7 @@ a {
     position: absolute;
     width: 46%;
     top: 243px;
+    /* z-index: 1; */
 }
 .introduction {
     width: 100%;
@@ -226,6 +260,57 @@ a {
 .much-more:hover {
     background-color: rgb(0, 150, 224);
 }
+.write-to-adam{
+    color:#333;
+    font-size:15px;
+    line-height:20px;
+    padding:62px 62px 0px;
+    width: 696px;
+    height: 568px;
+    margin-left: -10px;
+    position: absolute; 
+    margin-bottom: 400px;
+
+} 
+
+.write-to-adam h2 {
+    color:#333;
+    font-family:r;
+    font-size:28px;
+    line-height:29px;
+    margin:0px 0px 5px;
+    font-family:'Inheritance Font';
+    
+}
+.write-to-adam p{
+    
+    color:#333;
+    font-family:Open Sans;
+    font-size:15px;
+    line-height:25px;
+
+}
+.write-to-adam hr{
+    border-color:#333;
+    border-style:inset;
+    border-width:1px;
+    color:#333;
+    font-size:15px;
+    line-height:20px;
+    margin:7.5px 0px;
+}
+.write-to-adam a {
+    color:#00a7e0;
+    display: inline;
+    font-family:Open Sans;
+    font-size:15px;
+    line-height:20px;
+    
+}
+.dotted-line {
+    width: 100%;
+    border-top: 2px dotted black;
+}
 
 @media screen and (max-width: 1624px) {
   
@@ -323,9 +408,6 @@ a {
     .navbar-li.active > a {
         margin-top: 0px;
     }
-    
-
-    
 }
 @media screen and (max-width: 768px) {
     .navbar-container {
@@ -367,7 +449,7 @@ a {
         position: absolute; 
         top: 100%; 
         left: 0; 
-        z-index: 2;
+        z-index: 1;
         border-radius: 5px;
 
     }
@@ -414,55 +496,9 @@ a {
         width: 87%;
         left: 5%;
     }
-}
- .write-to-adam{
-    color:#333;
-    font-size:15px;
-    line-height:20px;
-    padding:62px 62px 0px;
-    width: 696px;
-    height: 568px;
-    margin-left: -10px;
-    position: absolute; 
-    margin-bottom: 400px;
-
-} 
-
-.write-to-adam h2 {
-    color:#333;
-    font-family:r;
-    font-size:28px;
-    line-height:29px;
-    margin:0px 0px 5px;
-    font-family:'Inheritance Font';
-    
-}
-.write-to-adam p{
-    
-    color:#333;
-    font-family:Open Sans;
-    font-size:15px;
-    line-height:25px;
-
-}
-.write-to-adam hr{
-    border-color:#333;
-    border-style:inset;
-    border-width:1px;
-    color:#333;
-    font-size:15px;
-    line-height:20px;
-    margin:7.5px 0px;
-}
-.write-to-adam a {
-    color:#00a7e0;
-    display: inline;
-    font-family:Open Sans;
-    font-size:15px;
-    line-height:20px;
-    
-}
-.dotted-line {
-    width: 100%;
-    border-top: 2px dotted black;
+    .write-to-adam {
+        top: 35%;
+        width: 500px;
+        left: 2%;
+    }
 }

@@ -520,4 +520,7 @@ a {
         width: 65%;
         left: -4%;
     }   
+    .banner > img {
+        height: 245px;
+    }
 }

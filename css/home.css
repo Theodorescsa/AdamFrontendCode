@@ -487,4 +487,8 @@ a {
         bottom: 0;
         margin-top: 200px;
     }
+  
+    .slideshow {
+        z-index: 1;
+    }
 }
