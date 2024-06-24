@@ -30,12 +30,14 @@ a {
     justify-content: center;
     align-items: center;
     top: 135px;
+    z-index: 0;
 }
 .author-description {
     width: 50%;
     text-align: center;
     color: white;
     font-size: large;
+
 }
 .author-description > a {
     text-decoration: none;
@@ -294,7 +296,6 @@ a {
         display: flex;
         justify-content: center;
         top: 0;
-        position: fixed;
     }
     .narbar {
         display: flex;
@@ -405,6 +406,8 @@ a {
         font-style: normal;
         text-decoration: none;
         background-color: rgb(0, 150, 224);
+        position: absolute;
+        z-index: 2;
     }
     #navbar-li-menu > a {
         margin-top: -0px;
@@ -424,12 +427,11 @@ a {
         padding-left: 50px;
         display: block;
         background-color: rgb(0, 150, 224);
-        position: absolute; 
-        top: 100%; 
+        top: 57px; 
         left: 0; 
-        z-index: 2;
         border-radius: 5px;
-
+        position: absolute;
+        z-index: 2;
     }
     .title-dropdown-father >a {
         color: white;
