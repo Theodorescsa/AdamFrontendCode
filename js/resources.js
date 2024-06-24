@@ -23,18 +23,18 @@ $(document).ready(function () {
             }, 2000);
 
             // Thêm hiệu ứng thay đổi màu nền khi hover
-            $(".book").hover(
-                function () {
-                    var $this = $(this);
-                    $this.data('interval', setInterval(function () {
-                        $this.css('background-color', getRandomColor());
-                    }, 500));
-                },
-                function () {
-                    clearInterval($(this).data('interval'));
-                    $(this).css('background-color', '');
-                }
-            );
+            // $(".book").hover(
+            //     function () {
+            //         var $this = $(this);
+            //         $this.data('interval', setInterval(function () {
+            //             $this.css('background-color', getRandomColor());
+            //         }, 500));
+            //     },
+            //     function () {
+            //         clearInterval($(this).data('interval'));
+            //         $(this).css('background-color', '');
+            //     }
+            // );
         },
         error: function (xhr, status, error) {
             console.error("Lỗi khi tải dữ liệu:", error);

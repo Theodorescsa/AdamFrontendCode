@@ -8,7 +8,6 @@ $(document).ready(function () {
         $(this).css("display", "none");
     });
 
-    // Animate phần tử #redirect-background2
     $("#redirect-background2").animate({
         right: "-700px",
         opacity:0
