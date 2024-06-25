@@ -285,17 +285,19 @@ a {
     text-decoration: underline;
 }
 article {
-    background-color: white;
-     padding: 20px;
+    background-color: #EBEDEE;
+    padding: 30px;
     margin-bottom: 20px;
-    width: 100%;
+    margin-left: 35px;
+    width: 88%;
     height: 200px;
-    border-bottom: 1px dashed black;
+    border-radius: 8px;
 } 
-article:hover {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
-
-}
+ article:hover {
+ box-shadow: 0 15px 30px rgba(92, 82, 82, 0.35); /* Đổ bóng lớn hơn */
+  transform: translateY(-10px) scale(1.05); /* Di chuyển lên trên và phóng to */
+  background-color: #aee5f8;
+} 
 article h2 a {
     text-decoration: none;
     color: #00a7e0;
@@ -314,14 +316,14 @@ article p {
 }
 
 article button {
-    background-color: #333;
+    background-color: #8e8d8d;
     color: white;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
     margin-top: 10px;
-} 
+}  
 .News{
     display: flex;
     flex-direction: column;

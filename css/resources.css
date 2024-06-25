@@ -242,8 +242,9 @@ a {
     animation-delay: 5.5s;
 }
 .book:hover{
-    border-radius: 10px;
-    border: 10px solid gold;
+    background-color:rgba(96, 159, 210, 0.321);
+    border: 10px solid rgba(0, 89, 255, 0.427);
+    border-radius: 20px;
 }
 
 .book > p{

@@ -5,13 +5,10 @@
 }
 body {
     background-color: rgb(235, 237, 238);
-    
 }
-
 a {
     text-decoration: none;
 }
-
 .container {
     width: 100%;
 }
@@ -67,11 +64,9 @@ a {
     height: 378px;
     padding-bottom: 20px;
 }
-
 .videoWrapper{
     width: 562px;
     height: 326px;
-
 }
 .introduction {
     width: 100%;
@@ -249,7 +244,6 @@ a {
 }
 
 @media screen and (max-width: 1624px) {
-  
     .navbar-container {
         position: absolute;
         width: 100vw;
@@ -263,7 +257,6 @@ a {
         width: 80%;
         justify-content: space-between;
     }
-    
     .narbar > li {
         padding: 0 10px;
         padding-bottom: 10px;
@@ -273,13 +266,11 @@ a {
         flex-direction: column;
         align-items: center;
     }
-    
     .narbar > li > img {
         height: 18px;
         width: 14px;
         display: none;
     }
-    
     .narbar > li > a {
         margin-top: 18px;
         font-style: normal;
@@ -453,12 +444,9 @@ a {
         width: 100%;
     }
     .footer-image {
-
         top:5450px;
     }
     .footer-content {
-
         top: 5500px;
-  
     }
 }
