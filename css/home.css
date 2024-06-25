@@ -226,6 +226,7 @@ a {
 }
 .footer {
     width: 100%;
+    text-align: center;
 }
 .footer-image {
     width: 100%;
@@ -487,5 +488,37 @@ a {
   
     .slideshow {
         z-index: 1;
+    }
+    /* .footer {
+        text-align: center;
+    }
+    .footer-content > ul > li {
+
+        padding: 0 1%;
+        border-left: 1px solid white;
+    } */
+    
+    .animation {
+        background-repeat: no-repeat;
+        width: 87%;
+    }
+    .slideshow {
+        position: absolute;
+        top: 426px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    
+    }
+    .slideshow-background {
+        position: absolute;
+        width: 97%;display: flex;
+        justify-content: center;
+    }
+    .slideshow-background > img {
+        width: 50%;
+    }
+    .footer-content > ul {
+        flex-direction: column;
     }
 }

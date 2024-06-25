@@ -70,7 +70,7 @@ a {
     justify-content: center;
     align-items: center;
     top: 70px;
-    z-index: 2;
+    z-index: 1;
 }
 .author> h1 {
     font-size: 58px;
@@ -212,6 +212,8 @@ a {
     width: 100%;
     position: absolute;
     bottom: 0;
+    text-align: center;
+
 }
 .footer-image {
     width: 100%;
@@ -574,7 +576,12 @@ article button {
         width: 100%;
         margin-left: 0;
     }
-
+    .footer-content > ul {
+        flex-direction: column;
+    }
+    .author {
+        text-align: center;
+    }
 }
 
 

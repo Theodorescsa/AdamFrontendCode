@@ -21,7 +21,7 @@ a {
     position: relative;
 }
 .banner > img {
-    height: 400px;
+    height: 55vh;
 }
 .author {
     position: absolute;
@@ -232,6 +232,8 @@ legend {
     width: 100%;
     position: absolute;
     bottom: 0;
+    text-align: center;
+
 }
 .footer-image {
     width: 100%;
@@ -508,5 +510,30 @@ legend {
     
         top: 2540px;
 
+    }
+    .detail-content {
+        position: relative;
+    }
+    .detail-content > img {
+        display: none;
+    }
+    .detail-content > p {
+        display: block;
+        font-size: small;
+        width: 300px;
+    }
+    fieldset {
+        display: flex;
+        margin-left: -30%;
+    }
+    .reviews-read {
+        width: 100%;
+    }
+    .reviews-read > p {
+        font-size: small;
+        top: 100px;
+    }
+    .footer-content > ul {
+        flex-direction: column;
     }
 }

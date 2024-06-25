@@ -266,6 +266,8 @@ a {
 }
 .footer {
     width: 100%;
+    text-align: center;
+
     
 }
 .footer-image {
@@ -516,5 +518,7 @@ a {
         width: 87%;
         left: 5%;
     }
-    
+    .footer-content > ul {
+        flex-direction: column;
+    }
 }

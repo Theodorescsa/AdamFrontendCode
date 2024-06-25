@@ -323,4 +323,7 @@ input::placeholder {
     .login-form {
         width: 80%;
     }
+    .footer-content > ul {
+        flex-direction: column;
+    }
 }

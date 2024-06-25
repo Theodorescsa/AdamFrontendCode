@@ -180,6 +180,8 @@ a {
 }
 .footer {
     width: 100%;
+    text-align: center;
+
     
 }
 .footer-image {
@@ -448,5 +450,8 @@ a {
     }
     .footer-content {
         top: 5500px;
+    }
+    .footer-content > ul {
+        flex-direction: column;
     }
 }

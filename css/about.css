@@ -106,7 +106,7 @@ a {
     justify-content: center;
     align-items: center;
     top: 70px;
-    z-index: 2;
+    z-index: 1;
 }
 .author> h1 {
     font-size: 75px;
@@ -250,6 +250,8 @@ a {
     position: relative;
     bottom: 0;
     background-color: black;
+    text-align: center;
+
 }
 .footer-image {
     width: 100%;
@@ -680,5 +682,8 @@ hr{
     }
     .main-content {
         z-index: 1;
+    }
+    .footer-content > ul {
+        flex-direction: column;
     }
 }
