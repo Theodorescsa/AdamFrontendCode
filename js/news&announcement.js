@@ -22,6 +22,9 @@ $(document).ready(function () {
             $("body").animate({
                 backgroundColor:"#6E2C00"
             },2000)
+            $("#dainganha").animate({
+                opacity:1
+            })
             
         },
         function () {
@@ -46,6 +49,9 @@ $(document).ready(function () {
             $("body").animate({
                 backgroundColor:"rgb(235, 237, 238)"
             },2000)
+            $("#dainganha").animate({
+                opacity:0
+            })
         }
     );
 

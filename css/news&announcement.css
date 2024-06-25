@@ -23,7 +23,7 @@ a {
     position: absolute;
     height: 350px;
     width: 100vw;
-    z-index: 0;
+    z-index: 1.5;
 }
 #mattroi {
     height: 150px;
@@ -31,7 +31,7 @@ a {
     position: absolute;
     right: 100px;
     top: 30px;
-    z-index: 0;
+    z-index: 1;
     opacity: 1;
 }
 #dammayleft,#dammayright {
@@ -40,6 +40,7 @@ a {
 }
 #dammayleft {
     left: 100px;
+    z-index: 1;
 }
 #dammayright {
     right: 100px;
@@ -49,8 +50,15 @@ a {
     width: 120px;
     position: absolute;
     right: 100px;
-    z-index: 0;
+    z-index: 1;
     top: 250px;
+    opacity: 0;
+}
+#dainganha {
+    position: absolute;
+    z-index: 0;
+    height: 300px;
+    width: 100%;
     opacity: 0;
 }
 .author {
@@ -62,12 +70,14 @@ a {
     justify-content: center;
     align-items: center;
     top: 70px;
+    z-index: 2;
 }
 .author> h1 {
     font-size: 58px;
     line-height: 65px;
     color: white;
     text-shadow: 0 0 3.2em #000, 0 0 2.2em #000;
+    z-index: 2;
 }
 .books-content {
     display: flex;
@@ -370,6 +380,7 @@ article button {
         display: flex;
         justify-content: center;
         top: 0;
+        z-index: 2;
     }
     .narbar {
         display: flex;
