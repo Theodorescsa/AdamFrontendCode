@@ -512,11 +512,11 @@ legend {
     }
     .footer-image {
   
-        top: 2491px;
+        top: 1491px;
     }
     .footer-content {
     
-        top: 2540px;
+        top: 1540px;
 
     }
     .detail-content {
@@ -543,5 +543,8 @@ legend {
     }
     .footer-content > ul {
         flex-direction: column;
+    }
+    .all-box {
+        margin-top: -1000px;
     }
 }
