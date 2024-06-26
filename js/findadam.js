@@ -17,6 +17,7 @@ $(document).ready(function () {
                         </div>
                     `);
                 }
+       
             },
             error: function (xhr, status, error) {
                 console.error("Lỗi khi tải dữ liệu:", error);

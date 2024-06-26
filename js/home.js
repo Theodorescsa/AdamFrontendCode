@@ -5,6 +5,7 @@ $(document).ready(function () {
                 top: '813px'
             }, 1200);
          }
+
     })
 
 });

@@ -277,9 +277,9 @@ a {
     font-size:15px;
     line-height:20px;
     padding:62px 62px 0px;
-    width: 696px;
+    width: 47vw;
     height: 568px;
-    margin-left: -10px;
+    margin-left: -20px;
     position: absolute; 
     margin-bottom: 400px;
 
@@ -364,12 +364,12 @@ a {
         font-weight: 500;
         color: white;
         font-family: 'Inheritance Font';
-        font-size: small;
+        font-size: 0.8vw;
     }
     .navbar-li > ul {
         list-style: none;
         position: absolute;
-        top: 45px;
+        top: 40px;
         display: none;
         position: fixed;
         z-index: 1;
@@ -420,6 +420,15 @@ a {
     }  
     .navbar-li.active > a {
         margin-top: 0px;
+    }
+    #navbar-li-ul1 {
+        margin-left: -1vw;
+    }
+    #navbar-li-ul2 {
+        margin-left: -2vw;
+    }
+    #navbar-li-ul3 {
+        margin-left: -3vw;
     }
 }
 @media screen and (max-width: 768px) {
@@ -511,7 +520,7 @@ a {
     }
     .write-to-adam {
         top: 35%;
-        width: 500px;
+        width: 97vw;
         left: 2%;
     }
     .footer-content > ul {

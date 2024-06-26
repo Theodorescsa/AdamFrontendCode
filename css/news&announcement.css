@@ -414,12 +414,12 @@ article button {
         font-weight: 100;
         color: white;
         font-family: 'Inheritance Font';
-        font-size: small;
+        font-size: 0.8vw;
     }
     .navbar-li > ul {
         list-style: none;
         position: absolute;
-        top: 45px;
+        top: 40px;
         display: none;
         position: fixed;
         z-index: 1;
@@ -476,7 +476,15 @@ article button {
         font-size: smaller;
 
     }
-    
+    #navbar-li-ul1 {
+        margin-left: -1vw;
+    }
+    #navbar-li-ul2 {
+        margin-left: -2vw;
+    }
+    #navbar-li-ul3 {
+        margin-left: -3vw;
+    }
 }
 @media screen and (max-width: 768px) {
     .navbar-container {

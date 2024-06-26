@@ -70,8 +70,10 @@ a {
     justify-content: space-between;
     max-width: 1110px;
     background-color: rgb(235, 237, 238);
-    top: -40px;
+    top: 500px;
     z-index: 1;
+    margin-right: -500px;
+    opacity: 0;
 }
 
 .box {
@@ -240,7 +242,9 @@ a {
 .books {
     position: absolute;
     width: 40%;
-    left: 19%;
+    /* left: 19%; */
+    left: -50%;
+    opacity: 0;
 }
 .books > a > img {
     width: 30%;
@@ -290,12 +294,12 @@ a {
         font-weight: 500;
         color: white;
         font-family:'Inheritance Font';
-        font-size: small;
+        font-size: 0.8vw;
     }
     .navbar-li > ul {
         list-style: none;
         position: absolute;
-        top: 45px;
+        top: 40px;
         display: none;
         position: fixed;
         z-index: 1;
@@ -348,7 +352,15 @@ a {
     .navbar-li.active > a {
         margin-top: 0px;
     }
-    
+    #navbar-li-ul1 {
+        margin-left: -1vw;
+    }
+    #navbar-li-ul2 {
+        margin-left: -2vw;
+    }
+    #navbar-li-ul3 {
+        margin-left: -3vw;
+    }
 
     
 }

@@ -1,4 +1,9 @@
 $(document).ready(function () {
+    var newWindowWidth = $(window).width();
+    var newWindowHeight = $(window).height();
+    $('#navbar-li-ul1').css("left", `${newWindowWidth * 0.18}px`);  
+    $('#navbar-li-ul2').css("left", `${newWindowWidth * 0.043}px`); 
+    $('#navbar-li-ul3').css("left", `${newWindowWidth * 0.457}px`); 
     $(".navbar-li:not(.active)").on("mouseover", function () {
         $(this).css("background-color", "rgb(0, 150, 224)");
         $(this).find("img").css("display", "block");
@@ -11,13 +16,13 @@ $(document).ready(function () {
         $(this).find("ul").css("display", "none");
         $(this).find("a").css("margin-top", "18px");
     });
-    // $(".navbar-li.active").on("mouseover", function () {
-    //     $(this).find("ul").css("display", "block");
-    // });
+    $(".navbar-li.active").on("mouseover", function () {
+        $(this).find("ul").css("display", "block");
+    });
 
-    // $(".navbar-li.active").on("mouseout", function () {
-    //     $(this).find("ul").css("display", "none");
-    // });
+    $(".navbar-li.active").on("mouseout", function () {
+        $(this).find("ul").css("display", "none");
+    });
 
     $(".animation").css("top", '100px');
 

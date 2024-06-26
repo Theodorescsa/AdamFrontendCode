@@ -328,12 +328,12 @@ a {
         font-weight: 500;
         color: white;
         font-family:'Inheritance Font';
-        font-size: small;
+        font-size: 0.8vw;
     }
     .navbar-li > ul {
         list-style: none;
         position: absolute;
-        top: 45px;
+        top: 40px;
         display: none;
         position: fixed;
     }
@@ -382,6 +382,15 @@ a {
     #navbar-li-ul1 > li >a,#navbar-li-ul1 > li >a,#navbar-li-ul1 > li >a {
         font-family:'Inheritance Font';
         font-size: smaller;
+    }
+    #navbar-li-ul1 {
+        margin-left: -1vw;
+    }
+    #navbar-li-ul2 {
+        margin-left: -2vw;
+    }
+    #navbar-li-ul3 {
+        margin-left: -3vw;
     }
 }
 @media screen and (max-width: 768px) {
@@ -520,5 +529,11 @@ a {
     }
     .footer-content > ul {
         flex-direction: column;
+    }
+    .footer-image {
+        top: 1691px;
+    }
+    .footer-content {
+        top: 1740px;
     }
 }

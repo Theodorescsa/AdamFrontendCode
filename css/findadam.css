@@ -72,6 +72,8 @@ a {
     z-index: 30px;
     margin-left: 17%;
     position: relative;
+    /* margin-left: -500px; */
+    opacity: 1;
     
 
 }
@@ -370,12 +372,12 @@ a {
         font-weight: 500;
         color: white;
         font-family:'Inheritance Font';
-        font-size: small;
+        font-size: 0.8vw;
     }
     .navbar-li > ul {
         list-style: none;
         position: absolute;
-        top: 45px;
+        top: 40px;
         display: none;
         position: fixed;
         z-index: 1;
@@ -427,7 +429,15 @@ a {
     .navbar-li.active > a {
         margin-top: 0px;
     }
-    
+    #navbar-li-ul1 {
+        margin-left: -1vw;
+    }
+    #navbar-li-ul2 {
+        margin-left: -2vw;
+    }
+    #navbar-li-ul3 {
+        margin-left: -3vw;
+    }
 
     
 }
