@@ -5,7 +5,7 @@ $(document).ready(function () {
         opacity:1
     },3000)
     $(".blood").animate({
-        top:'130px',
+        top:'110px',
         opacity:1
     },3000)
     $(".tonhen").animate({

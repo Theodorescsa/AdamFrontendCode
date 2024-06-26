@@ -99,7 +99,7 @@ input::placeholder {
     font-size: 70px;
     color: red;
     margin: -30px auto;
-    margin-left: 100px;
+    z-index: 2;
 }
 .login-form > form >a {
     background: url('../images/submit_arrow.png');
