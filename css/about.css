@@ -682,7 +682,7 @@ hr{
     #title-testimanial {
         font-size: 7vw;
     }
-    .testimonial:nth-child(1),.testimonial:nth-child(2),.testimonial:nth-child(3),.author-testimonial:nth-child(1),.author-testimonial:nth-child(2),.author-testimonial:nth-child(3) {
+    .testimonial:nth-child(1),.testimonial:nth-child(2),.author-testimonial:nth-child(1),.author-testimonial:nth-child(2) {
         display: block;
     }
     .menu-dropdown {
