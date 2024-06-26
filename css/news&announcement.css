@@ -575,13 +575,13 @@ article button {
     }
     .News {
         background-color: white;
-        width: 90%;
-        margin-left: -13%;
+        width: 78%;
+        margin-left: -5%;
 
     }
     article {
         background-color: white;
-        width: 100%;
+        width: 90%;
         margin-left: 0;
     }
     .footer-content > ul {

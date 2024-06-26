@@ -71,6 +71,7 @@ a {
     max-width: 1110px;
     background-color: rgb(235, 237, 238);
     top: 500px;
+    /* margin-top: 500px; */
     z-index: 1;
     margin-right: -500px;
     opacity: 0;
@@ -476,5 +477,8 @@ a {
     .footer-content > ul {
         flex-direction: column;
     }
-  
+    .all-box {
+        margin-top: 1900px;
+    }
+    
 }
