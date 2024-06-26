@@ -94,7 +94,7 @@ a {
 .books-content-bkg > img {
     position: absolute;
     width: 46%;
-    top: 243px;
+    top: 300px;
     /* z-index: 1; */
 }
 .introduction {

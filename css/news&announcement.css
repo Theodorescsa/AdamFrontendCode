@@ -92,7 +92,7 @@ a {
 .books-content-bkg > img {
     position: absolute;
     width: 46%;
-    top: 243px;
+    top: 300px;
 }
 .introduction {
     width: 100%;
@@ -342,7 +342,7 @@ article button {
     background-color: white;
     width: 41.8%;
     position: absolute;
-    top: 280px;
+    top: 340px;
     left: 17.1%;
 
 }
@@ -575,7 +575,7 @@ article button {
     }
     .News {
         background-color: white;
-        width: 78%;
+        width: 75%;
         margin-left: -5%;
 
     }

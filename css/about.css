@@ -130,7 +130,7 @@ a {
 .books-content-bkg > img {
     position: absolute;
     width: 46%;
-    top: 243px;
+    top: 300px;
     z-index: 1;
     height: 4300px;
 
@@ -322,7 +322,7 @@ a {
     width: 75%;
     height: 4500px;
     z-index: 2; 
-    top: 280px;  
+    top: 340px;  
     justify-content: center;
 }
 
