@@ -542,4 +542,9 @@ a {
     .footer-content {
         top: 1740px;
     }
+    body {
+        background-color:#6E2C00;
+        /* background-color: aqua; */
+        
+    }
 }
