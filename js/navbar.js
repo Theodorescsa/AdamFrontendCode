@@ -14,7 +14,7 @@ $(document).ready(function () {
         $(this).css("background-color", "");
         $(this).find("img").css("display", "none");
         $(this).find("ul").css("display", "none");
-        $(this).find("a").css("margin-top", "18px");
+        // $(this).find("a").css("margin-top", "18px");
     });
     $(".navbar-li.active").on("mouseover", function () {
         $(this).find("ul").css("display", "block");

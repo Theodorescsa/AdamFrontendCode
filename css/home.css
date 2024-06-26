@@ -306,8 +306,7 @@ a {
     }
     
     .narbar > li {
-        padding: 0 10px;
-        padding-bottom: 10px;
+     
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
         display: flex;
@@ -319,10 +318,12 @@ a {
         height: 18px;
         width: 14px;
         display: none;
+        position: absolute;
     }
     
     .narbar > li > a {
-        margin-top: 18px;
+        padding:18px 10px 10px 10px;
+
         font-style: normal;
         text-decoration: none;
         font-weight: 500;
