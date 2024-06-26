@@ -10,7 +10,7 @@ $(document).ready(function () {
                 $(".book-list").prepend(`
                     <div class="book">
                         <img src="${element.image}" alt="" class='book-image'>
-                        <p><a href="#">Click here</a> ${element.content}</p>
+                        <p><a href="https://storage.googleapis.com/classroom-portal-production/uploads/2019/10/c016245c-unicornrescuesociety_educatorsguide_final_updated.pdf" target="blank">Click here</a> ${element.content}</p>
                     </div>
                     <div class="space"></div>
                 `);

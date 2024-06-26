@@ -336,7 +336,6 @@ a {
         position: absolute;
         top: 40px;
         display: none;
-        position: fixed;
     }
     .navbar-li > ul > li:hover {
         background-color: #00A7E0;
@@ -346,6 +345,7 @@ a {
     }
     #navbar-li-ul1{
         position: absolute;
+        z-index: 2;
     }
     .navbar-li > ul > li {
         background-image: none;
@@ -386,12 +386,17 @@ a {
     }
     #navbar-li-ul1 {
         margin-left: -1vw;
+        z-index: 2;
     }
     #navbar-li-ul2 {
         margin-left: -2vw;
+        z-index: 2;
+
     }
     #navbar-li-ul3 {
         margin-left: -3vw;
+        z-index: 2;
+
     }
 }
 @media screen and (max-width: 768px) {
